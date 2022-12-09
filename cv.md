@@ -42,7 +42,7 @@ function toBinary(n){
 }
 ```
 
-### Languges
+### Languages
 * Russian: native
 * English: B2
 * French: A1

@@ -6,27 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CV Lyubov Agulova</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
+<header class="header">
+    <div class="container">
     <nav>
-       <ul>
-        <li>Contacts</li>
-        <li>About me</li>
-        <li>Education</li>
-        <li>Skills</li>
-        <li>Code</li>
-        <li>Languages</li>
+       <ul class="nav-list">
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#About" class="nav-link">About me</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
        </ul>
-    </nav>
+    </nav> </div>
 </header>
-<main>
-<div>
-    <h1>Lyubov Agulova</h1>
+<main class="main-container">
+    <div class="container">
+<div class="personal">
+    <div class="ava">
+    <img class="avatar" src="assets/img/image.jpg" alt="My photo"> </div>
+    <div class="job-title">
+    <h1 class="h1">Lyubov Agulova</h1>
     <h2>Junior Frontend Developer</h2>
 </div>
-<section>
-    <h2>Contacts</h2>
+</div>
+<section class="section" id="Contacts">
+    <h2 class="h2">Contacts</h2>
         <ul>
             <li><span>Location:</span> Saint Petersburg, Russia</li>
             <li><span>Phone number:</span> +7 981 172 40 67</li>
@@ -35,11 +43,11 @@
             <li><span>GitHub:</span> lu7623</li>
         </ul>
 </section>
-<section>
+<section class="section" id="About">
 <h2>About Me</h2>
 <p>I am currently running small business as self-employed, but recent events in my country have forced me to rebuild my career and start the journey into Web Development. In recent years, my technical knowledge received at the university has been supplemented by skills such as flexibility in communication, resourcefulness in solving problems, and perseverance in achieving goals. Now I am focused on gaining new information and practical expirience in order to become a qualified Frontend Developer.</p>
 </section>
-<section>
+<section class="section" id="Education">
 <h2>Education and courses</h2>
 <ul>
     <li>Bachelor of radiophysics, Voronezh State University, 2009-2013</li>
@@ -47,7 +55,7 @@
     <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
 </ul>
 </section>
-<section>
+<section class="section" id="skills">
 <h2>Skills and Proficiency</h2> 
 <ul>
     <li>HTML 5</li>
@@ -57,7 +65,7 @@
     <li>Adobe Photoshop, Illustrator, Figma</li>
 </ul>
 </section>
-<section>
+<section class="section" id="code">
 <h2>Code example</h2>
 <p>
 function toBinary(n)
@@ -70,17 +78,26 @@ function toBinary(n)
 }
 </p>
 </section>
-<section>
+<section class="section" id="languages">
 <h2>Languages</h2>
   <ul>
     <li>Russian: native</li>
     <li>English: B2</li>
     <li>French: A1</li>
   </ul>
-</section>
+</section> </div>
 </main>
-<footer>
-
+<footer class="footer"> 
+  <div class="container">
+    <nav >
+        <ul class="nav-list-footer">
+            <li class="nav-footer"><a href="https://github.com/lu7623" class="nav-link">Lu7623 on GitHub</a></li>
+            <li class="nav-footer"><h3>2022 </h3></li>
+            <li class="nav-footer"><a href="https://rs.school/js/">
+                <img class="logo" src="assets/img/rs_school_js.svg" alt="RS logo"></a></li>
+        </ul>
+</nav>
+</div>
 </footer>
 </body>
 </html>
