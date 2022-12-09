@@ -2,85 +2,186 @@
     box-sizing: border-box;
     font-family: 'Railway', sans-serif;
 }
+
 html {
         scroll-behavior: smooth; 
       }
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-.header{
-    background-color: #4E6C50;
-    
+
+.flex{
+  display: flex;
+  justify-content: center;
 }
-.footer{
-    background-color: #4E6C50;
-}
-.main-container {
+
+.column {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #4E6C50; 
+}
+
+.nav-header {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #4E6C50;
+}
+
+.main-container {
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-  }
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
 .container {
     max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
-.column-left{
-width: 30%;
+
+.column-left {
+    width: 30%;
+    border-right: 2px solid #AA8B56;
 }
-.column-right{
-    width: 70%;
+
+.column-right {
+    width: 70%; 
 }
 
 .section {
-   padding-left: 30px;
-   padding-right: 30px;
-    border: 1px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 2px solid #AA8B56;
   }
+
 .nav-list {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     list-style: none;
+    padding: 0;
 }
+
 .nav-link {
     color: white;
     padding: 0 20px;
     line-height: 50px;
-  }
-
-.h1{
-    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
 }
+
+  .personal{
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.ava {
+    width: 30%;
+    margin: 0;
+}
+
+.personality{
+    width: 70%;
+    text-align: center;;
+    color: #395144;
+}
+
+.main-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.job-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contact-item{
+    font-weight: bold;
+    color: #AA8B56;
+}
+
+.contacts-list{
+    list-style: disc;
+    line-height: 1.5;
+    padding: 0;
+    color: #395144;
+}
+
+.skills-list{
+    list-style: disc;
+    line-height: 1.5;
+    padding: 0;
+    font-weight: bold;
+    color: #AA8B56;
+}
+
+.languages-list{
+    list-style: disc;
+    line-height: 1.5;
+    padding: 0;
+    font-weight: bold;
+    color: #AA8B56;
+}
+
 .avatar{
     height: 200px;
     width: 200px;
+    border-radius: 50%;
 }
-.personal{
+
+.section-title{
+    font-family: 'Quicksand', sans-serif;
+    color: #395144;
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav-footer {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
-.logo{
-    width: 100px;
-}
-.nav-footer{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .nav-footer-item {
     color: white;
-    padding: 0 20px;
-    line-height: 50px;
-}
-.nav-list-footer {
+    line-height: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center; 
+    align-items: center;
+}
+
+.nav-list-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+.link {
+    text-decoration: none;
+    color:  #AA8B56;;
 }
