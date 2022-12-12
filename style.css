@@ -154,6 +154,12 @@ body {
     height: 30px;
 }
 
+hr{
+    size: 2px; 
+    color: #AA8B56; 
+    width: 300px;
+}
+
 pre{
     margin: 0;
 }
