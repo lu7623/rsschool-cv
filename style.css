@@ -154,6 +154,10 @@ body {
     height: 30px;
 }
 
+pre{
+    margin: 0;
+}
+
 .nav-footer {
     width: 100%;
     display: flex;
@@ -184,4 +188,9 @@ body {
 .link {
     text-decoration: none;
     color:  #AA8B56;;
+}
+
+a:hover {
+    cursor: pointer;
+    color:#AA8B56;
 }
