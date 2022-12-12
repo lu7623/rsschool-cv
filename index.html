@@ -4,8 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV Lyubov Agulova</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>    
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav-header flex">
+                <ul class="nav-list flex">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#About" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+    <main class="main-container flex">   
+        <div class="personal flex">
+            <div class="ava flex">
+                <img class="avatar" src="assets/img/image.jpg" alt="My photo"> 
+            </div>
+            <div class="personality">
+                <h1 class="main-title">Lyubov Agulova</h1>
+                <hr size="2px" color="#AA8B56" width="300px">
+                <h2 class="job-title">Junior Frontend Developer</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="column-left column">
+                <section class="section" id="Contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li><span class="contact-item">Location:</span> Saint Petersburg, Russia</li>
+                        <li><span class="contact-item">Phone number:</span> +7 981 172 40 67</li>
+                        <li><span class="contact-item">E-mail:</span> lu7623@gmail.com</li>
+                        <li><span class="contact-item">Telegram:</span> @lu_agulova</li>
+                        <li><span class="contact-item">GitHub:</span> lu7623</li>
+                        <li><span class="contact-item">Discord:</span>lu7623#0338</li>
+                    </ul>
+                </section>
+                <section class="section" id="skills">
+                    <h2  class="section-title">Skills and Proficiency</h2> 
+                    <ul class="skills-list">
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>JavaScript Basics</li>
+                        <li>Bootstrap</li>
+                        <li>Git/GitHub</li>
+                        <li>Adobe Photoshop, Illustrator, Figma</li>
+                    </ul>
+                </section>
+                <section class="section" id="languages">
+                    <h2  class="section-title">Languages</h2>
+                        <ul class="languages-list">
+                            <li>Russian: native</li>
+                            <li>English: B2</li>
+                            <li>French: A1</li>
+                        </ul>
+                </section> 
+            </div>
+            <div class="column-right column">
+                <section class="section" id="About">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I am currently running small business as self-employed, but recent events in my country have forced me to rebuild my career and start the journey into Web Development. In recent years, my technical knowledge received at the university has been supplemented by skills such as flexibility in communication, resourcefulness in solving problems, and perseverance in achieving goals. Now I am focused on gaining new information and practical expirience in order to become a qualified Frontend Developer.</p>
+                </section>
+                <section class="section" id="Education">
+                    <h2 class="section-title">Education and courses</h2>
+                    <ul>
+                        <li>Bachelor of radiophysics, Voronezh State University, 2009-2013</li>
+                        <li>Udemy <a href="https://www.udemy.com/course/the-web-developer-bootcamp/" class="link">The Web Developer Bootcamp</a> / in progress</li>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 0» / in progress</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code example</h2>
+                    <div class="code-example">      
+                        <pre>
+<code>function toBinary(n) {
+let bin ='';
+while (n > 0) {
+bin = (n % 2) + bin;
+n = Math.floor(n/2);
+}
+return Number(bin);
+}</code> 
+                        </pre>
+                    </div> 
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul>
+                        <li> <a class="link" href="https://lu7623.github.io/rsschool-cv/cv">CV</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer"> 
+        <div class="container">
+            <nav class="nav-footer">
+                <ul class="nav-list-footer">
+                    <li class="nav-footer-item"> <img src="assets/img/github-mark-white.png" class="logo"> <a href="https://github.com/lu7623" class="nav-link">Lu7623 on GitHub</a></li>
+                    <li class="nav-footer-item"><span>2022 </span></li>
+                    <li class="nav-footer-item"><a href="https://rs.school/js/">
+                    <img class="logo" src="assets/img/rs_school_js.svg" alt="RS logo"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
