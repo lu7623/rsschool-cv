@@ -45,7 +45,7 @@ body {
     padding-right: 30px;
 }
 
-.container {
+.container {   
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -83,8 +83,6 @@ body {
 }
 
   .personal{
-    width: 100%;
-    flex-wrap: wrap;
     padding: 30px;
 }
 
